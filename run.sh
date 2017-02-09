@@ -30,7 +30,7 @@ log_level                :info
 log_location             STDOUT
 node_name                "stelligent"
 client_key               "#{current_dir}/stelligent.pem"
-chef_server_url          "https://ec2-52-205-233-2.compute-1.amazonaws.com/organizations/stelligent"
+chef_server_url          "https://ec2-54-172-96-220.compute-1.amazonaws.com/organizations/stelligent"
 cookbook_path            ["#{current_dir}/../cookbooks"]
 EOT
 echo knife[:aws_access_key_id] = "'$2'" >> knife.rb
